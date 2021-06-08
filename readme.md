@@ -2,8 +2,16 @@
 
 **By Mac**
 
-1. [Module Paths](#module-paths)
-2. [Components](#components)
+1. [Dependencies](#dependencies)
+2. [Module Paths](#module-paths)
+3. [Components](#components)
+
+## Dependencies
+
+- Next
+- React
+- Typescript
+- Sass
 
 ## Module Paths
 
