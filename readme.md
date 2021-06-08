@@ -4,14 +4,14 @@
 
 1. [Dependencies](#dependencies)
 2. [Module Paths](#module-paths)
-3. [Components](#components)
+3. [Styling](#styling)
 
 ## Dependencies
 
 - Next
 - React
 - Typescript
-- Sass
+- Styled Components
 
 ## Module Paths
 
@@ -22,9 +22,15 @@ You can access all needed folders using the following shortcuts
 - Documents: `@/docs/*`
 - User Interace: `@/ui/*`
 - Library: `@/lib/*`
-- Pages: `@/pgs/*`
+- Pages: `@/pages/*`
 - API: `@/api/*`
-- Styles: `@/css/*`
-- Public Images: `@/img/*`
+- Styles: `@/styles/*`
+- Public Images: `@/pub/*`
 - Icons: `@/ico/*`
 - Images: `@/imgs/*`
+
+## Styling
+
+**Global styles** are crafted in styled components using the Theme Provider.
+
+**Component Styles** are handled with Styled Components in order to create reusable components that are editable using JavaScript logic.
