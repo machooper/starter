@@ -2,8 +2,8 @@
 
 **By Mac**
 
-1 [Module Paths](#module-paths)
-2 [Components](#components)
+1. [Module Paths](#module-paths)
+2. [Components](#components)
 
 ## Module Paths
 
