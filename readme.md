@@ -1,4 +1,4 @@
-# Component Library
+# Starter
 
 **By Mac**
 
