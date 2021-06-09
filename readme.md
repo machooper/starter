@@ -33,7 +33,7 @@ You can access all needed folders using the following shortcuts
 
 ## Styling
 
-**Theming** Font styles, colors and more can be changed in the `@styles/theme.ts` file.
+**Theming** is managed in the `@styles/theme.ts` file, here you can edit base styles such as colors and fonts.
 
 **Global styles** are crafted in styled components.
 
