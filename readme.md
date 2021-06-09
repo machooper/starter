@@ -2,11 +2,13 @@
 
 **By Mac**
 
-1. [Dependencies](#dependencies)
-2. [Module Paths](#module-paths)
-3. [Styling](#styling)
-4. [Comments](#comments)
-5. [Clean Code](#clean-code)
+- [Starter](#starter)
+  - [Dependencies](#dependencies)
+  - [Module Paths](#module-paths)
+  - [Styling](#styling)
+  - [Comments](#comments)
+  - [Clean-Code](#clean-code)
+  - [Commits](#commits)
 
 ## Dependencies
 
