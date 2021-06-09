@@ -1,21 +1,21 @@
 {
-    "name": "starter",
-    "version": "0.0.1",
-    "scripts": {
-        "dev": "next",
-        "build": "next build",
-        "start": "next start"
-    },
-    "dependencies": {
-        "next": "latest",
-        "react": "latest",
-        "react-dom": "latest"
-    },
-    "devDependencies": {
-        "@types/node": "latest",
-        "@types/react": "latest",
-        "@types/react-dom": "latest",
-        "typescript": "latest"
-    },
-    "LICENSE": "MIT"
+	"name": "starter",
+	"version": "0.0.1",
+	"scripts": {
+		"dev": "next",
+		"build": "next build",
+		"start": "next start"
+	},
+	"dependencies": {
+		"next": "latest",
+		"react": "latest",
+		"react-dom": "latest"
+	},
+	"devDependencies": {
+		"@types/node": "latest",
+		"@types/react": "latest",
+		"@types/react-dom": "latest",
+		"typescript": "latest"
+	},
+	"LICENSE": "MIT"
 }
