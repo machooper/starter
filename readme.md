@@ -33,7 +33,9 @@ You can access all needed folders using the following shortcuts
 
 ## Styling
 
-**Global styles** are crafted in styled components using the Theme Provider.
+**Theming** Font styles, colors and more can be changed in the `@styles/theme.ts` file.
+
+**Global styles** are crafted in styled components.
 
 **Component Styles** are handled with Styled Components in order to create reusable components that are editable using JavaScript logic.
 
