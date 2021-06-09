@@ -58,7 +58,7 @@ NOTE: If you install the `better-comments` plugin, the comment standards below w
 
 ## Clean-Code
 
-In order to ensure clean, consitent code, setup prettier as well as vscode autosave and format on save with the settings provided below.
+In order to ensure clean, consitent code, setup prettier as well as editor autosave and format on save, settings for vscode provided below.
 
 ```
 "files.autoSave": "afterDelay",
