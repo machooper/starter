@@ -1,6 +1,20 @@
 {
 	"name": "starter",
 	"version": "0.0.1",
+	"description": "A Next.JS starter application",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/machooper/starter"
+	},
+	"author": {
+		"name": "Mac",
+		"email": "mac.develops@icloud.com",
+		"url": "https://machooper.tech"
+	},
+	"keywords": [
+		"template",
+		"starter"
+	],
 	"scripts": {
 		"dev": "next",
 		"build": "next build",
