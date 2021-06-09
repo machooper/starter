@@ -72,3 +72,9 @@ In order to ensure clean, consitent code, setup prettier as well as vscode autos
 "prettier.semi": false,
 "editor.formatOnSave": true,
 ```
+
+## Commits
+
+Good clean and informative commits are imperative to a project running successfuly, utilize the conventional-commits plugin in order to create consistent, uniform git commits.
+
+Make sure to use branches when working on new features, this confirms there will be no breaking changes accidentaly pushed to the production branch.
