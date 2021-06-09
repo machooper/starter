@@ -17,17 +17,17 @@
 
 You can access all needed folders using the following shortcuts
 
-- Components: `@/comps/*`
-- Layout: `@/layout/*`
-- Documents: `@/docs/*`
-- User Interace: `@/ui/*`
-- Library: `@/lib/*`
-- Pages: `@/pages/*`
-- API: `@/api/*`
-- Styles: `@/styles/*`
-- Public Images: `@/pub/*`
-- Icons: `@/ico/*`
-- Images: `@/imgs/*`
+- Components: `@comps/*`
+- Layout: `@layout/*`
+- Documents: `@docs/*`
+- User Interace: `@ui/*`
+- Library: `@lib/*`
+- Pages: `@pages/*`
+- API: `@api/*`
+- Styles: `@styles/*`
+- Public Images: `@pub/*`
+- Icons: `@ico/*`
+- Images: `@imgs/*`
 
 ## Styling
 
