@@ -6,6 +6,7 @@
 2. [Module Paths](#module-paths)
 3. [Styling](#styling)
 4. [Comments](#comments)
+5. [Clean Code](#clean-code)
 
 ## Dependencies
 
@@ -53,4 +54,21 @@ NOTE: If you install the `better-comments` plugin, the comment standards below w
 * TODO: Something that needs to be done within this code
 * @param paramName is used to define what params are needed
 */
+```
+
+## Clean-Code
+
+In order to ensure clean, consitent code, setup prettier as well as vscode autosave and format on save with the settings provided below.
+
+```
+"files.autoSave": "afterDelay",
+"editor.tabSize": 2,
+"prettier.arrowParens": "avoid",
+"prettier.bracketSpacing": false,
+"prettier.jsxBracketSameLine": true,
+"prettier.jsxSingleQuote": true,
+"prettier.trailingComma": "none",
+"prettier.useTabs": true,
+"prettier.semi": false,
+"editor.formatOnSave": true,
 ```
