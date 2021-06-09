@@ -40,6 +40,8 @@ You can access all needed folders using the following shortcuts
 
 Use the following standards across apps to ensure readable and informative comments
 
+NOTE: If you install the `better-comments` plugin, the comment standards below will be highlighted and colorised based on the type of comment.
+
 ```
 // * use singline line comments
 
@@ -52,4 +54,3 @@ Use the following standards across apps to ensure readable and informative comme
 * @param paramName is used to define what params are needed
 */
 ```
-
