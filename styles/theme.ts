@@ -21,7 +21,7 @@ const theme = {
 		black: ['#000'],
 		grey: ['#eae'],
 		shade: ['rgba(0,0,0,.3'],
-		primary: ['#0099ff'],
+		primary: ['#0099ff', '#008ae6', '#007acc'],
 		secondary: ['#ffee55'],
 		tertiary: ['#aa33bb'],
 		warn: ['#fddc5c'],
