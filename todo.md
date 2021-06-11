@@ -1,6 +1,7 @@
 - [x] Add dependencies
 - [x] Pull env files
-- [ ] Populate files
+- [x] Update theme files to match client
+- [ ] Populate component files
 - [ ] Fill out files
 - [ ] Enable auth with auth0
 - [ ] Write fetch function with react-query
