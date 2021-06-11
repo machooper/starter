@@ -1,7 +1,7 @@
 import Link from "next/link"
 import styled from "styled-components"
 import theme from "@/styles/theme"
-import LoginButton from "./auth"
+import {LoginButton, LogoutButton, Profile} from "./auth"
 
 export interface SidebarProps {
 	pageTitle: string
@@ -46,11 +46,14 @@ export const Sidebar: React.FC<SidebarProps> = ({
 		<>
 			<Aside>
 				<Title>{pageTitle}</Title>
-				<LoginButton />
+				<Profile />
 				<Nav>
 					{navLinks.map(link => (
-						<Link href={link.toLowerCase()}>{link}</Link>
+						<Link key={link} href={link.toLowerCase()}>
+							{link}
+						</Link>
 					))}
+					<LogoutButton />
 				</Nav>
 			</Aside>
 		</>

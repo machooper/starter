@@ -1,8 +1,8 @@
 import {ThemeProvider} from "styled-components"
 import {Auth0Provider} from "@auth0/auth0-react"
-
 import GlobalStyles from "@/styles/global"
 import theme from "@/styles/theme"
+import "react-loader-spinner/dist/loader/css/react-spinner-loader.css"
 
 export default function App({Component, pageProps}) {
 	return (
@@ -11,10 +11,10 @@ export default function App({Component, pageProps}) {
 				<Auth0Provider
 					domain={"dev-wjerfr5t.us.auth0.com"}
 					clientId={"qxRvvfuad6nHo5YsMRdZxXbRksWwMdVo"}
-					redirectUri={"http://localhost:3000"}
-				/>
-				<GlobalStyles />
-				<Component {...pageProps} />
+					redirectUri={"http://localhost:3000/"}>
+					<GlobalStyles />
+					<Component {...pageProps} />
+				</Auth0Provider>
 			</ThemeProvider>
 		</>
 	)
