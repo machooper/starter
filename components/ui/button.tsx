@@ -16,6 +16,7 @@ export interface ButtonProps {
 	border?: string
 	borderRadius?: string
 	label?: string
+	margin?: string
 	onClick?: () => void
 }
 
@@ -60,6 +61,7 @@ const BaseButton = styled.button<ButtonProps>`
 	white-space: nowrap;
 	cursor: pointer;
 	margin: 1rem;
+	margin: .4rem 0;
 
 	:hover {
 		background: ${p =>

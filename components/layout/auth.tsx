@@ -11,9 +11,10 @@ export const LoginButton = () => {
 	return (
 		!isAuthenticated && (
 			<Button
+				primary
+				backgroundColor='#0082F3'
 				border='2px solid #0075db'
 				borderRadius='.5rem'
-				textColor='#1c1c1c'
 				hoverBackgroundColor='#0075db'
 				hoverTextColor='#fff'
 				hoverTransition='.3s ease'
@@ -28,7 +29,7 @@ export const LoginButton = () => {
 
 export const LogoutButton = () => {
 	const {logout} = useAuth0()
-	return <a onClick={() => logout({returnTo: process.env.AUTH_URL})}>logout</a>
+	return <a onClick={() => logout({returnTo: process.env.AUTH_URL})}>Logout</a>
 }
 
 const UserProfile = styled.div`
@@ -49,7 +50,6 @@ const UserProfile = styled.div`
 const ProfileDetails = styled.div`
 	${flexVertCenter};
 	justify-content: space-around;
-	margin: 0 auto;
 `
 export const Profile = () => {
 	const {user, isAuthenticated, isLoading} = useAuth0()
@@ -62,7 +62,7 @@ export const Profile = () => {
 		isAuthenticated && (
 			<UserProfile>
 				<ProfileDetails>
-					<img src={user.picture} alt={user.name} />
+					<img src={user.picture} />
 					<h2>{user.name}</h2>
 				</ProfileDetails>
 			</UserProfile>
