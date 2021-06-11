@@ -1,0 +1,8 @@
+- [x] Add dependencies
+- [x] Pull env files
+- [ ] Populate files
+- [ ] Fill out files
+- [ ] Enable auth with auth0
+- [ ] Write fetch function with react-query
+- [ ] Write a GraphQL schema on Fauna
+- [ ] Setup api scripts with GraphQL

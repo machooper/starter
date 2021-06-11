@@ -1,8 +1,8 @@
 const theme = {
 	typography: {
 		fonts: {
-			head: 'system-ui',
-			body: 'system-ui'
+			head: '"Montserrat", sans-serif',
+			body: '"Montserrat", sans-serif',
 		},
 		weights: {
 			light: 300,
@@ -18,12 +18,11 @@ const theme = {
 	},
 	colors: {
 		white: ['#fff'],
-		black: ['#000'],
-		grey: ['#eae'],
+		black: ['#333'],
+		grey: ['#eee', '#767676'],
 		shade: ['rgba(0,0,0,.3'],
-		primary: ['#0099ff', '#008ae6', '#007acc'],
-		secondary: ['#ffee55'],
-		tertiary: ['#aa33bb'],
+		primary: ['#58e020', '#4fca1d', '#46b31a'],
+		secondary: ['#0082F3', '#0075db', '#0068c2'],
 		warn: ['#fddc5c'],
 		error: ['#ff3961'],
 		success: ['56fca2']

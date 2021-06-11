@@ -1,4 +1,5 @@
 import {createGlobalStyle} from 'styled-components'
+import theme from './theme'
 
 const GlobalStyles = createGlobalStyle`
   *, *::before, *::after {
@@ -9,33 +10,39 @@ const GlobalStyles = createGlobalStyle`
   html, body {
     width: 100vw;
     min-height: 100vh;
-    font-family: ${props => props.theme.typography.fonts.body};
-    font-weight: ${props => props.theme.typography.weights.regular};
-    font-size: ${props => props.theme.typography.sizes[0]};
-    line-height: ${props => props.theme.typography.lineheight};
-    color: ${props => props.theme.colors.black[0]};
-    background: ${props => props.theme.colors.white[0]};
+    font-family: ${theme.typography.fonts.body};
+    font-weight: ${theme.typography.weights.regular};
+    font-size: ${theme.typography.sizes[0]};
+    line-height: ${theme.typography.lineheight};
+    color: ${theme.colors.black[0]};
+    background: ${theme.colors.white[0]};
     overflow-x: hidden;
   }
   h1, h2, h3, h4, h5, h6 {
-    font-family: ${props => props.theme.typography.fonts.head};
+    font-family: ${theme.typography.fonts.head};
+  }
+  a, button {
+    cursor: pointer;
   }
   a{
     text-decoration: none;
     color: inherit;
     &:hover {
       text-decoration: underline;
-      color: ${props => props.theme.colors.primary[0]};
+      color: ${theme.colors.primary[0]};
     }
+  }
+  ul, ol, dd {
+    list-style: none;
   }
   @media(min-width: 1360px) {
     html, body {
-      font-size: ${props => props.theme.typography.sizes[0]}
+      font-size: ${theme.typography.sizes[0]}
     }
   }
   @media(min-width: 1920px) {
     html, body {
-      font-size: ${props => props.theme.typography.sizes[1]}
+      font-size: ${theme.typography.sizes[1]}
     }
   }
 `

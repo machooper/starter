@@ -16,6 +16,8 @@
 - React
 - Typescript
 - Styled Components
+- SWR
+- GraphQL
 
 ## Module Paths
 
