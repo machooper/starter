@@ -35,7 +35,7 @@ const Aside = styled.aside<SidebarProps>`
 const Title = styled.h1<SidebarProps>`
 	${flexVertCenter}
 	font-size: 1.1rem;
-	margin-bottom: 1rem;
+	margin-bottom: 2rem;
 	svg {
 		cursor: pointer;
 	}
@@ -55,7 +55,7 @@ const Nav = styled.nav`
 
 export const Sidebar: React.FC<SidebarProps> = ({
 	pageTitle = "PEG Dashboard",
-	navLinks = ["Overview", "Logs", "Agents", "Centers"]
+	navLinks = ["Overview", "Logs", "Agents", "Callcenters"]
 }) => {
 	const [open, setOpen] = useState(false)
 	return (

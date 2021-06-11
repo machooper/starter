@@ -104,7 +104,6 @@ export const SignInContainer = () => {
 					size='medium'
 					weight={400}
 					margin='0'
-					onClick={() => loginWithRedirect()}
 				/>
 			</LoginContainer>
 		</Container>
