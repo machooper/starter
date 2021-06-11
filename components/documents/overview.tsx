@@ -7,11 +7,12 @@ interface DivProps {
 }
 
 const GridContainer = styled.div`
-	width: 60vw;
+	width: 70vw;
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
 	grid-tempalte-rows: 1fr 1fr 1fr;
 	gap: 15px;
+	margin: 0 auto;
 	grid-template-areas:
 		"one one one two two two"
 		"three three three three four four"
@@ -51,7 +52,7 @@ const GridDiv = styled.div<DivProps>`
   min-height: 270px;
   padding: 2rem;
   border-radius: .8rem
-  
+
   :empty {
     display: inline-block;
     position: relative;
