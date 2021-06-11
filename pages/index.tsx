@@ -3,7 +3,9 @@ import styled from "styled-components"
 import {flexColVertCenter} from "@/styles/mixins"
 import Layout from "@/layout/layout"
 import {LoginButton} from "@/comps/layout/auth"
-import {Button} from "@/ui/button"
+import Button from "@/ui/button"
+import Overview from "@/docs/overview"
+
 export default function Home() {
 	const {isAuthenticated} = useAuth0()
 	const Container = styled.div`
@@ -27,7 +29,8 @@ export default function Home() {
 				<Layout
 					title='Overview'
 					description='An overview page, containing various data'>
-					<h1>Test</h1>
+					<h1>Overview</h1>
+					<Overview />
 				</Layout>
 			)}
 			{!isAuthenticated && (

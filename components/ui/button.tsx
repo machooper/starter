@@ -73,7 +73,7 @@ const BaseButton = styled.button<ButtonProps>`
 `
 
 // Declare Button export
-export const Button: React.FC<ButtonProps> = ({
+const Button: React.FC<ButtonProps> = ({
 	primary = false,
 	textColor,
 	backgroundColor,
@@ -108,3 +108,5 @@ export const Button: React.FC<ButtonProps> = ({
 		</BaseButton>
 	)
 }
+
+export default Button
